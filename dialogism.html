@@ -1,25 +1,75 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Dialogism</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <script type="text/javascript" src="index.js"></script>
+    <title>Felix Muzny</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- TODO: favicon -->
+    <!-- <link rel="icon" href="avicon.ico"> -->
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!--
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154340233-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-154340233-3');
+    </script>
+  -->
   </head>
   <body>
 
-    <div id="banner">
-      <div id="name" class="left">
-        <h1>Dialogism</h1>
-      </div>
-      <div class="right" id="contact">
-        <p id="email">f.muzny{at]northeastern[dot}edu </p>
-      </div>
-    </div>
+  <div class="container">
+    <div class="row col-md-12" role="main">
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html#">About</a>
+          <a class="navbar-brand" href="index.html#teaching">Courses</a>
+          <a class="navbar-brand" href="index.html#projects">Projects</a>
+          <a class="navbar-brand" href="index.html#publications">Publications</a>
+          
+        </div>
+      </nav>
+      <div class="col-md-6">
 
-		<div>
-			<p>
-        Any questions? Just send me an email!
-			</p>
+        <h1>Dialogism</h1>
+        
+    </div>
+    <hr>
+
+      
+    </div>
+ 
+  </div>
+  
+
+ <div class="container">
+
+    <div class="row" role="main" id="about">
+         
+      <p>
+      This page contains the data and code associated with the paper:
+      </p>
+
+      
+      <p>
+      <span class="publication"><strong>Felix Muzny</strong>, Mark Algee-Hewitt, and Dan Jurafsky. 2016.
+          <a href="http://dh2016.adho.org/abstracts/153">The Dialogic Turn and the Performance of Gender: the English Canon 1782-2011.</a>
+          In <em>Digital Humanities 2016: Conference Abstracts.</em> Jagiellonian University &amp; Pedagogical University, Kraków, pp. 296-299.
+      </span>
+      <span class="bib">
+        <a href="bibs/muzny2016dialogic.bib">bib</a>
+      </span>
+      </p>
 
       <h2>Data</h2>
       <p> We release the metadata for the corpus associated with the journal article "Dialogism in the novel: A computational model of the dialogic nature of narration and quotations.
@@ -30,23 +80,19 @@
       </p>
 
       <p> A description of each field in the data is listed below.
-      <ul>
-        <li>author: the author of the text</li>
-        <li>title: the title of the text</li>
-        <li>date: the publication date of the text</li>
-        <li>type: whether this row corresponds to the extracted narration or dialog</li>
-        <li>dialogism_score: the dialogism score assigned to the narration or dialog in this text</li>
-        <li>num_spans: the number of continguous spans of text of narration or dialog that were extracted</li>
-        <li>num_words: the number of words of narration or dialog that were extracted</li>
-      </ul>
-      <p>
-
-<!--
-      <h2>Annotator</h2>
-      <p> Our code will be available as part of Stanford CoreNLP. It should be available around the end of July/August 2017. Check back later or email me for more details.
+        <ul>
+          <li>author: the author of the text</li>
+          <li>title: the title of the text</li>
+          <li>date: the publication date of the text</li>
+          <li>type: whether this row corresponds to the extracted narration or dialog</li>
+          <li>dialogism_score: the dialogism score assigned to the narration or dialog in this text</li>
+          <li>num_spans: the number of continguous spans of text of narration or dialog that were extracted</li>
+          <li>num_words: the number of words of narration or dialog that were extracted</li>
+        </ul>
       </p>
--->
+
 		</div>
+  </div>
 
   </body>
 </html>
